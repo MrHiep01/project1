@@ -23,6 +23,7 @@ int main(){
     v1.pop_back();//xóa phần tử cuối cùng, lúc này size của vector tự động
     // co lại chỉ để đủ chỗ lưu cho các phần tử trong vector    
     v1.insert(v1.begin(),value);//chèn value vào vị trí v1.begin
+    v1.pop_back();
 
 
 
